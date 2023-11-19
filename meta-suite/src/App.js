@@ -30,10 +30,27 @@ const App = () => {
         .catch((error) => {
           alert("Something went wrong");
         });
+
+  }
+
+  if (account == null) {
+    return (
+      <div className="App">
+        {
+          isWalletInstalled ? (
+            <button onClick={connectWallet}>Connet Wallet</button>
+          ) : (
+            <p>Install wallet</p>
+          )
+        }
+      </div>
+    );
   }
   return (
-    <div>App</div>
-  )
+    <div className="App">
+      <p>Connected as : {account}</p>
+    </div>
+  );
 }
 
 export default App

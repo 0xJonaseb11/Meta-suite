@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
+import React, { useEffect, useState } from "react";  // Add this line
+import { Contract, providers } from "ethers";
+
+// import logo from './logo.svg';
 import './App.css';
 
-import { useEffect, useState } from "react";
-import { Contract, providers } from "ethers";
 
 function App() {
 

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Contract, providers } from "ethers";
 
 function App() {

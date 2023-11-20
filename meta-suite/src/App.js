@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";  // Add this line
 // import { Contract, providers } from "ethers";
 
-import logo from './logo.svg';
+import logo from "./body.jpeg";
 import './App.css';
 
 

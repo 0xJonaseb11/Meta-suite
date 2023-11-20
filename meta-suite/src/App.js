@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";  // Add this line
 // import { Contract, providers } from "ethers";
 
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 
@@ -45,7 +45,10 @@ function App() {
       );
     }
       return (
+        
         <div className="App">
+          <img src={logo} alt="logo"/>
+
           <p>Connected as: {account}</p>
         </div>
     );

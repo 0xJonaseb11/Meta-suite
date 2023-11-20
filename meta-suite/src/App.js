@@ -1,6 +1,5 @@
-import React from 'react';
 import React, { useEffect, useState } from "react";  // Add this line
-import { Contract, providers } from "ethers";
+// import { Contract, providers } from "ethers";
 
 // import logo from './logo.svg';
 import './App.css';

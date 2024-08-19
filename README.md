@@ -7,4 +7,4 @@ Get to connect and integrate it in User interface.Get able to connect wallet and
 
 ------------
 
-@Jonas-sebera
+@0xJonaseb11

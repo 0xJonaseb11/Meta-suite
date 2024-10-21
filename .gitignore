@@ -2,3 +2,4 @@ cache
 .env
 build
 coverage
+node_modules
